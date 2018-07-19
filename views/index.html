@@ -1,87 +1,493 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
+<head>
+  <title>Lazy Walker</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
 
-    <title>Bare - Start Bootstrap Template</title>
+  <!-- =======================================================
+    Theme Name: ROBOT CART
+    Theme URL: https://bootstrapmade.com/ROBOT CART-free-parallax-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+    <style>    
+    .coupon {
+        border: 5px dotted #bbb;
+        width: 80%;
+        border-radius: 15px;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    
+    
+    .promo {
+        background: #ccc;
+        padding: 3px;
+    }
+    
+    .expire {
+        color: red;
+    }
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-top: 54px;
-      }
-      @media (min-width: 992px) {
-        body {
-          padding-top: 56px;
-        }
-      }
-
+    
     </style>
+</head>
 
-  </head>
+<body>
 
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Airport Robot Cart</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/discount">Coupon</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/search">Search Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/congestion">Analysis</a>
-            </li>
-          </ul>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">Robot Cart</a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Product</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro area -->
+  <div id="intro">
+    <div class="intro-text">
+      <div class="container">
+        <div class="col-md-12">
+          <div id="rotator">
+            <h1><span class="1strotate">Lazy Walker studio, Design for life, Creativity and technology</span></h1>
+            <div class="line-spacer"></div>
+            <p><span class="2ndrotate">Robot Design, Mobility, Promotion & Analysis</span></p>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
 
-    <!-- Page Content -->
+  <!-- About -->
+  <section id="about" class="home-section bg-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">IoT Business Model Development</h1>
-          <p class="lead">Lazy Walker</p>
-          <ul class="list-unstyled">
-            <li>2018-07-21</li>
-            <li>권병철, 박상호, 한상수, 강경원</li>
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>About us</h2>
+            <div class="heading-line"></div>
+            <p>2018 IoT Business Model Development</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+          <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+            <h4>권병철</h4>
+            <img width=300 src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-1/p200x200/28059539_1690415971004824_5048783583392546093_n.png?_nc_cat=0&oh=189406df39c8e47b46edee619794ad7b&oe=5BCC2F17" alt="" class="img-circle img-responsive" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.3s">
+          <div class="box-team wow bounceInUp">
+            <h4>한상수</h4>
+            <img src="http://www.koreasobija.com/news/photo/201803/12118_8397_3548.jpg" alt="" class="img-circle img-responsive" width=300/>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.5s">
+          <div class="box-team wow bounceInUp">
+            <h4>박상호</h4>
+            <img src="https://images.forbes.com/media/lists/companies/kt-corp_416x416.jpg" alt="" class="img-circle img-responsive" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.7s">
+          <div class="box-team wow bounceInUp">
+            <h4>강경원</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQI7TO3sT40YKiePLwEZZqR1431WrtiYLMkMAKVcxqC9vRf_6" alt="" class="img-circle img-responsive" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax 1 -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="color-light">
+            <h2 class="wow bounceInDown" data-wow-delay="0.5s">Details are the key for perfection</h2>
+            <p class="lead wow bounceInUp" data-wow-delay="1s">We mix all detailed things together</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <section id="products" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Products</h2>
+            <div class="heading-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-product" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Robotics</h4>
+                      <p>Autonomous Driving, 5G Networking, Recognition</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/CropperCapture[197].png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Carrier</h4>
+                      <p>Security</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/2.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Web & Mobile Apps</h4>
+                      <p>Mobile Connectivity</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/3.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-product" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-product" data-slide-to="1"></li>
+              <li data-target="#carousel-product" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Services -->
+  <section id="services" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Services</h2>
+            <div class="heading-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-service" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Coupon Service</h4>
+                      <p>Duty Free, Credit Card Company Promotion, Coupon Notification</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/CropperCapture[197].png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Search Service</h4>
+                      <p>항공사 승객 위치 검색 service</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/2.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Analysis</h4>
+                      <p>공항혼잡도 분석</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/3.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-service" data-slide-to="1"></li>
+              <li data-target="#carousel-service" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Coupon Service-->
+<div class="coupon">
+  <div class="container">
+    <h4>New Hermes Bag</h4>
+  </div>
+  <img src="https://a.1stdibscdn.com/archivesE/upload/v_400/1481030616909/Hermes_Birkin_30_togo_Gold_doll_l.jpeg" alt="Avatar" style="width:50%;">
+  <div class="container" style="background-color:white">
+    <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">BOH232</span></p>
+    <p class="expire">Expires: Jul 21, 2018</p>
+  </div>
+</div>
+
+<!-- Search Service-->
+<div class="row">
+ <div class="container">
+ <img src="https://www.jal.co.jp/en/inter/airport/icn/info/Y15/img/e_nyukoku.gif">
+  <div class="text-block"> 
+    <h4>Here</h4>
+  </div>
+ </div>
+</div>
+
+<!-- analysis-->
+<div class="row">
+ <div class="container">
+ <img src="https://www.jal.co.jp/en/inter/airport/icn/info/Y15/img/e_nyukoku.gif">
+  <div class="text-block" style="bottom: 270px;left:580px;background-color: #0bc;"></div>
+  <div class="text-block" style="bottom: 260px;left:550px;background-color: #0bc;"></div>
+  <div class="text-block" style="bottom: 280px;left:480px;background-color: #06c;"></div>
+  <div class="text-block" style="bottom: 280px;left:450px;background-color: #05c;"></div>
+  <div class="text-block" style="bottom: 300px;left:390px;background-color: #00c;"></div>
+  <div class="text-block" style="bottom: 300px;left:380px;background-color: #00c;"></div>
+  <div class="text-block" style="bottom: 280px;left:370px;background-color: #00c;"></div>
+  <div class="text-block" style="bottom: 200px;left:180px;background-color: #07c;"></div>
+  <div class="text-block" style="bottom: 150px;left:80px;background-color: #09c;"></div>
+  <div class="text-block" style="bottom: 100px;left:80px;background-color: #09c;"></div>
+ </div>
+</div>
+
+  <!-- Parallax 2 -->
+  <section id="parallax2" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="clients">
+            <li class="wow fadeInDown" data-wow-delay="0.3s"><a href="#"><img src="img/clients/1.png" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="0.6s"><a href="#"><img src="img/clients/2.png" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="0.9s"><a href="#"><img src="img/clients/3.png" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="1.1s"><a href="#"><img src="img/clients/4.png" alt="" /></a></li>
           </ul>
         </div>
       </div>
     </div>
+  </section>
 
-  <div class="row">
-   <div class="container">
-   <img src="vendor/img/CropperCapture[197].png">
-   </div>
-  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Contact -->
+  <section id="contact" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Contact us</h2>
+            <div class="heading-line"></div>
+            <p>If you have any question or just want to say 'hello' to ROBOT CART please fill out form below and we will be get in touch with you within 24 hours. </p>
+          </div>
+        </div>
+      </div>
 
-  </body>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
 
+          <form action="" method="post" class="form-horizontal contactForm" role="form">
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-2 col-md-8">
+                <button type="submit" class="btn btn-theme btn-lg btn-block">Send message</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bottom widget -->
+  <section id="bottom-widget" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h5>Main Office</h5>
+            <p>
+              Seocho Gu,<br />SEOUL
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-phone fa-4x"></i>
+            <h5>Call</h5>
+            <p>
+              +82 10 9998 7774<br> +82 10 4544 6855
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>Email us</h5>
+            <p>
+              hello@lazywalker.io<br />sales@lazywalker.io
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; Lazy Walker. All rights reserved.</p>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=ROBOT CART
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/mb.bgndGallery.js"></script>
+  <script src="js/mb.bgndGallery.effects.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
 </html>
