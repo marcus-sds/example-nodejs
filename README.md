@@ -1,9 +1,12 @@
 # Robot Cart
 
+## Requirements
+
+nodejs
+
 ## Installation
 
 npm install
-
 
 ### Run
 
